@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>日本大学文理学部情報科学科 Webプログラミングの演習課題</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body id="title">
+    <h1>日本大学文理学部情報科学科 Webプログラミングの演習課題</h1>
+    <h2>5419004 村瀬壱星</h2>
+
+    <div class="content">
+        <h2>&lt;The h1,h2,h3,h4,h5,and h6 element&gt;</h2>
+        <div>
+            <h3>(1)説明</h3>
+            <p>これら６種類のタグはHTMLの見出しタグと呼ばれており、見出しを作るためのタグである。１〜６まであるが数字が小さいほど大きな見出しを表示する事ができる。<br>
+                タグで挟まれた部分が見出しとして認識される。基本的にh1見出しから順番に使っていくがh1タグは、ウェブページの主題を表すのに一度だけ使うのが理想的である。<br>
+                h2以下の見出しタグは何回使っても問題ない。
+            </p>
+        </div>
+        <div>
+            <h3>(2)マークアップ例</h3>
+            <pre>
+                <code>
+                    &lt;h1&gt;h1は1番大きい見出し&lt;/h1&gt;
+                    &lt;h2&gt;h2は2番大きい見出し&lt;/h2&gt;
+                    &lt;h3&gt;h3は3番大きい見出し&lt;/h3&gt;
+                    &lt;h4&gt;h4は4番大きい見出し&lt;/h4&gt;
+                    &lt;h5&gt;h5は5番大きい見出し&lt;/h5&gt;
+                    &lt;h6&gt;h6は6番大きい見出し&lt;/h6&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <h3>(3)動作結果</h3>
+            <img src="./imges/img1.png" alt="h1~h6タグの実行結果">
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>&lt;The ul,ol,li element&gt;</h2>
+        <div>
+            <h3>(1)説明</h3>
+            <p>基本的にulタグは、liタグと一緒に用いる。この二つのタグを使用することによって箇条書きを表示する事ができる箇条書きの一つ一つの文はliタグで挟み、複数のliタグの前後をulタグで挟んで記述する。ulタグの中にliタグは何回使用してもよく、箇条書きのしたい項目数分だけ記述する事ができる。ulを使用すると先頭が黒丸の箇条書きとなるが、かわりにolを使用すると番号付の箇条書きになる。
+            </p>
+        </div>
+        <div>
+            <h3>(2)マークアップ例</h3>
+            <pre>
+                <code>
+                    &lt;ul&gt;
+                        &lt;li&gt;1つめの項目&lt;/li&gt;
+                        &lt;li&gt;2つめの項目&lt;/li&gt;
+                        &lt;li&gt;3つめの項目&lt;/li&gt;
+                    &lt;/ul&gt; 
+                </code>
+                <code>
+                    &lt;ol&gt;
+                        &lt;li&gt;1つめの項目&lt;/li&gt;
+                        &lt;li&gt;2つめの項目&lt;/li&gt;
+                        &lt;li&gt;3つめの項目&lt;/li&gt;
+                    &lt;/ol&gt;
+                </code>
+            </pre>
+        </div>
+        <div>
+            <h3>(3)動作結果</h3>
+            <img src="imges/img2.png" alt="ulタグの実行結果">
+            <br><br>
+            <img src="imges/img3.png" alt="olタグの実行結果">
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>&lt;The strong,b element&gt;</h2>
+        <div>
+            <h3>(1)説明</h3>
+            <p>
+            strongタグは、特定のテキストを強調したい際に使用するされる。強調したいテキストをstrongタグで挟んで記述する事で太字などに強調されて表示される。しかし、ブラウザにより強調表現は異なるので注意が必要である。テキストが太字になるという点でbタグという物もあるが、strongタグは強い重要性を示すタグ、bタグは印刷される際など他と区別するためのタグというように使い分けされている。
+            </p>
+        </div>
+        <div>
+            <h3>(2)マークアップ例</h3>
+            <pre>
+                <code>
+                    &lt;strong&gt;
+                        囲った部分が強調される
+                    &lt;/strong&gt;
+                    &lt;p&gt;
+                        囲ってない部分
+                    &lt;/p&gt;
+                </code>
+                <code>
+                    &lt;b&gt;
+                        囲った部分が強調される
+                    &lt;/b&gt;
+                    &lt;p&gt;
+                        囲ってない部分
+                    &lt;/p&gt
+                </code>
+            </pre>
+        </div>
+        <div>
+            <h3>(3)動作結果</h3>
+            <img src="imges/img4.png" alt="strongタグとbタグの実行結果">
+        </div>
+    </div>
+  </body>
+</html>
